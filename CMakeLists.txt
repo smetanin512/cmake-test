@@ -34,10 +34,10 @@ include(${_project_options_SOURCE_DIR}/Index.cmake)
 
 # Set the project name and language
 project(
-  myproject
+  cmake-test
   VERSION 0.0.1
   DESCRIPTION ""
-  HOMEPAGE_URL "%%myurl%%"
+  HOMEPAGE_URL "https://github.com/smetanin512/cmake-test"
   LANGUAGES CXX C)
 
 set(GIT_SHA
